@@ -49,17 +49,6 @@ flowchart LR
 
 ---
 
-## ⚡ Performance Benchmarks
-
-Real-world verified scan benchmarks:
-
-| Repository | Files | AST Relationships | Capability Checks | Total Scan Time |
-|---|:---:|:---:|:---:|:---:|
-| **ZENITH (Self-Scan)** | 128 | 4,434 | 16,962 | **2.96 seconds** |
-| **LangChain / LangGraph** | 452 | 45,542 | 185,734 | **36.62 seconds** |
-
----
-
 ## 📦 Output Contract (The 3 Files)
 
 Every scan produces a deterministic, audit-ready 3-file Evidence Package:
