@@ -111,7 +111,7 @@ zenith scan https://github.com/langchain-ai/langgraph ./langgraph-output --mode 
 ### 3. Python SDK Usage
 
 ```python
-from src.pipeline.orchestrator import ScanPipeline
+from zenith import ScanPipeline
 
 pipeline = ScanPipeline(target_dir="./my-project", mode="standard")
 pipeline.run(output_dir="./scan-output")

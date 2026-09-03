@@ -249,8 +249,7 @@ class UnifiedFactVisitor(ContextTrackingVisitor):
         self.exceptions.append(fact)
         self._record_time("exception_fact_creation_seconds", time.time() - t0)
         
-        # We need to manually visit handlers? No, generic_visit(node) will do it.
-        super().generic_visit(node)
+        super().visit_Try(node)
         
     def visit_TryStar(self, node: ast.TryStar):
         # Python 3.11+ ExceptionGroup support
@@ -268,7 +267,7 @@ class UnifiedFactVisitor(ContextTrackingVisitor):
         )
         self.exceptions.append(fact)
         self._record_time("exception_fact_creation_seconds", time.time() - t0)
-        super().generic_visit(node)
+        super().visit_TryStar(node)
 
     def visit_Raise(self, node: ast.Raise):
         t0 = time.time()
