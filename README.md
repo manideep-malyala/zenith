@@ -1,4 +1,4 @@
-# ZENITH ⚡
+# ZENITH
 
 <p align="center">
   <strong>Zero-hallucination Evidence & Network Intelligence for Token-optimal Heuristics</strong><br>
@@ -10,32 +10,31 @@
   <img src="https://img.shields.io/badge/tests-143%20passed%20(100%25)-brightgreen.svg" alt="Tests">
   <img src="https://img.shields.io/badge/code%20style-ruff-000000.svg" alt="Ruff">
   <img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License">
-  <img src="https://img.shields.io/badge/speed-45k%20relations%20in%2036s-orange.svg" alt="Speed">
 </p>
 
 ---
 
-## 🎯 The Problem ZENITH Solves
+## The Problem ZENITH Solves
 
 Modern LLM coding agents and RAG pipelines struggle with **code hallucinations** and **context window bloat**:
 * **Vector Embeddings & Grep** miss multi-file inheritance chains, factory registrations, and caller graphs.
 * **Feeding Full Repos to LLMs** wastes millions of tokens on boilerplate, utility scripts, and test mocks.
 
-**ZENITH solves this deterministically.** It compiles Python codebases into a typed directed graph, applies **PageRank, Betweenness Centrality, and $k$-Core Decomposition**, and mines **323 architectural capabilities** to emit an immutable, audit-ready **Evidence Package** in seconds.
+**ZENITH solves this deterministically.** It compiles Python codebases into a typed directed graph, applies **PageRank, Betweenness Centrality, and k-Core Decomposition**, and mines **323 architectural capabilities** to emit an immutable, audit-ready **Evidence Package** in seconds.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- **⚡ Blazing Fast**: Scans 450+ Python files (45,500+ relationships) in **~36 seconds** via parallel multi-threaded AST workers.
-- **🔍 323 Cataloged Capabilities**: 100% coverage across language idioms, GoF design patterns, architectural styles, concurrency, dead code, and SRP risks.
-- **📊 5 Graph Centrality Metrics**: PageRank, Betweenness Centrality, $k$-Core, In-Degree, and Out-Degree to mathematically separate core architecture from peripheral scripts.
-- **🔒 Zero-Hallucination Ground Truth**: Every finding is anchored in immutable, SHA-256 hashed AST fact references with exact file paths and line numbers.
-- **📦 Clean 3-File Evidence Package**: Produces strictly `metadata.json`, `knowledge.json`, and `top_learnings.json`.
+- **High Performance**: Scans large multi-file codebases in seconds via parallel multi-threaded AST workers.
+- **323 Cataloged Capabilities**: Coverage across language idioms, GoF design patterns, architectural styles, concurrency, dead code, and SRP risks.
+- **5 Graph Centrality Metrics**: PageRank, Betweenness Centrality, k-Core, In-Degree, and Out-Degree to separate core architecture from peripheral scripts.
+- **Zero-Hallucination Ground Truth**: Every finding is anchored in immutable, SHA-256 hashed AST fact references with exact file paths and line numbers.
+- **Clean 3-File Evidence Package**: Produces strictly `metadata.json`, `knowledge.json`, and `top_learnings.json`.
 
 ---
 
-## 🏗️ Architecture Pipeline
+## Architecture Pipeline
 
 ```mermaid
 flowchart LR
@@ -49,7 +48,7 @@ flowchart LR
 
 ---
 
-## 📦 Output Contract (The 3 Files)
+## Output Contract (The 3 Files)
 
 Every scan produces a deterministic, audit-ready 3-file Evidence Package:
 
@@ -80,7 +79,7 @@ scan-output/
 
 ---
 
-## 🛠️ Installation & Quickstart
+## Installation & Quickstart
 
 ### Prerequisites
 * Python >= 3.10
@@ -120,7 +119,7 @@ pipeline.run(output_dir="./scan-output")
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 zenith/
@@ -147,7 +146,7 @@ zenith/
 
 ---
 
-## 🧪 Automated Testing
+## Automated Testing
 
 Run the full test suite (143 unit, integration, and E2E tests):
 
@@ -157,6 +156,6 @@ python3 -m unittest discover -s tests -v
 
 ---
 
-## 📄 License
+## License
 
 Apache 2.0
