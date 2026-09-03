@@ -1,0 +1,3554 @@
+repository_layout:
+  concept: repository_layout
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_repository_layout
+  description: repository layout
+  learning_candidate: false
+  educational_value: 0.1
+packages:
+  concept: packages
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_packages
+  description: packages
+  learning_candidate: false
+  educational_value: 0.1
+modules:
+  concept: modules
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_modules
+  description: modules
+  learning_candidate: false
+  educational_value: 0.1
+source_directories:
+  concept: source_directories
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_source_directories
+  description: source directories
+  learning_candidate: false
+  educational_value: 0.1
+test_directories:
+  concept: test_directories
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_test_directories
+  description: test directories
+  learning_candidate: false
+  educational_value: 0.1
+configuration_directories:
+  concept: configuration_directories
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_configuration_directories
+  description: configuration directories
+  learning_candidate: false
+  educational_value: 0.1
+scripts:
+  concept: scripts
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_scripts
+  description: scripts
+  learning_candidate: false
+  educational_value: 0.1
+documentation:
+  concept: documentation
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_documentation
+  description: documentation
+  learning_candidate: false
+  educational_value: 0.1
+entry_points:
+  concept: entry_points
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_entry_points
+  description: entry points
+  learning_candidate: false
+  educational_value: 0.1
+generated_vendor_directories:
+  concept: generated_vendor_directories
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generated_vendor_directories
+  description: generated/vendor directories
+  learning_candidate: false
+  educational_value: 0.1
+package_boundaries:
+  concept: package_boundaries
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: package boundaries
+  learning_candidate: false
+  educational_value: 0.1
+dependency_boundaries:
+  concept: dependency_boundaries
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: dependency boundaries
+  learning_candidate: false
+  educational_value: 0.1
+module_ownership_metadata:
+  concept: module_ownership_metadata
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: module ownership metadata
+  learning_candidate: false
+  educational_value: 0.1
+project_metadata:
+  concept: project_metadata
+  category: 1._repository_understanding
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.is_python_package
+  description: project metadata
+  learning_candidate: false
+  educational_value: 0.1
+functions:
+  concept: functions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.is_function
+  description: functions
+  learning_candidate: false
+  educational_value: 0.1
+async_functions:
+  concept: async_functions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.is_async_function
+  description: async functions
+  learning_candidate: false
+  educational_value: 0.1
+methods:
+  concept: methods
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.is_method
+  description: methods
+  learning_candidate: false
+  educational_value: 0.1
+classes:
+  concept: classes
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.is_class
+  description: classes
+  learning_candidate: false
+  educational_value: 0.1
+nested_functions:
+  concept: nested_functions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_nested_functions
+  description: nested functions
+  learning_candidate: false
+  educational_value: 0.1
+nested_classes:
+  concept: nested_classes
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_nested_classes
+  description: nested classes
+  learning_candidate: false
+  educational_value: 0.1
+lambdas:
+  concept: lambdas
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_lambdas
+  description: lambdas
+  learning_candidate: false
+  educational_value: 0.1
+generators:
+  concept: generators
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.is_generator
+  description: generators
+  learning_candidate: false
+  educational_value: 0.1
+properties:
+  concept: properties
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_properties
+  description: properties
+  learning_candidate: true
+  educational_value: 0.7
+static_methods:
+  concept: static_methods
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_static_methods
+  description: static methods
+  learning_candidate: false
+  educational_value: 0.1
+class_methods:
+  concept: class_methods
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_class_methods
+  description: class methods
+  learning_candidate: false
+  educational_value: 0.1
+abstract_methods:
+  concept: abstract_methods
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_abstract_methods
+  description: abstract methods
+  learning_candidate: false
+  educational_value: 0.1
+overloaded_methods:
+  concept: overloaded_methods
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: overloaded methods
+  learning_candidate: false
+  educational_value: 0.1
+assignments:
+  concept: assignments
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_assignment
+  description: assignments
+  learning_candidate: false
+  educational_value: 0.1
+annotated_assignments:
+  concept: annotated_assignments
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_annotated_assignment
+  description: annotated assignments
+  learning_candidate: false
+  educational_value: 0.1
+augmented_assignments:
+  concept: augmented_assignments
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_augmented_assignment
+  description: augmented assignments
+  learning_candidate: false
+  educational_value: 0.1
+walrus_expressions:
+  concept: walrus_expressions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_walrus_expression
+  description: walrus expressions
+  learning_candidate: false
+  educational_value: 0.1
+global_variables:
+  concept: global_variables
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_env_vars
+  description: global variables
+  learning_candidate: false
+  educational_value: 0.1
+nonlocal_variables:
+  concept: nonlocal_variables
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: nonlocal variables
+  learning_candidate: false
+  educational_value: 0.1
+class_attributes:
+  concept: class_attributes
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: class attributes
+  learning_candidate: false
+  educational_value: 0.1
+instance_attributes:
+  concept: instance_attributes
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: instance attributes
+  learning_candidate: false
+  educational_value: 0.1
+constants:
+  concept: constants
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: constants
+  learning_candidate: false
+  educational_value: 0.1
+destructuring:
+  concept: destructuring
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_destructuring
+  description: destructuring
+  learning_candidate: false
+  educational_value: 0.1
+tuple_unpacking:
+  concept: tuple_unpacking
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_tuple_unpacking
+  description: tuple unpacking
+  learning_candidate: false
+  educational_value: 0.1
+starred_unpacking:
+  concept: starred_unpacking
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: starred unpacking
+  learning_candidate: false
+  educational_value: 0.1
+function_calls:
+  concept: function_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_function_calls
+  description: function calls
+  learning_candidate: false
+  educational_value: 0.1
+method_calls:
+  concept: method_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_method_calls
+  description: method calls
+  learning_candidate: false
+  educational_value: 0.1
+constructor_calls:
+  concept: constructor_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: oop.creates_objects
+  description: constructor calls
+  learning_candidate: false
+  educational_value: 0.1
+callable_objects:
+  concept: callable_objects
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: callable objects
+  learning_candidate: false
+  educational_value: 0.1
+callbacks:
+  concept: callbacks
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: oop.registers_callback
+  description: callbacks
+  learning_candidate: true
+  educational_value: 0.8
+higher_order_functions:
+  concept: higher_order_functions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: higher-order functions
+  learning_candidate: false
+  educational_value: 0.1
+recursive_calls:
+  concept: recursive_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: recursive calls
+  learning_candidate: false
+  educational_value: 0.1
+dynamic_calls:
+  concept: dynamic_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: dynamic calls
+  learning_candidate: false
+  educational_value: 0.1
+chained_calls:
+  concept: chained_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: chained calls
+  learning_candidate: false
+  educational_value: 0.1
+attribute_calls:
+  concept: attribute_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: attribute calls
+  learning_candidate: false
+  educational_value: 0.1
+if:
+  concept: if
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_conditional
+  description: if
+  learning_candidate: false
+  educational_value: 0.1
+elif:
+  concept: elif
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_conditional
+  description: elif
+  learning_candidate: false
+  educational_value: 0.1
+else:
+  concept: else
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_conditional
+  description: else
+  learning_candidate: false
+  educational_value: 0.1
+match_case:
+  concept: match_case
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_match_case
+  description: match/case
+  learning_candidate: false
+  educational_value: 0.1
+for:
+  concept: for
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_loop
+  description: for
+  learning_candidate: false
+  educational_value: 0.1
+while:
+  concept: while
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_loop
+  description: while
+  learning_candidate: false
+  educational_value: 0.1
+break:
+  concept: break
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_break
+  description: break
+  learning_candidate: false
+  educational_value: 0.1
+continue:
+  concept: continue
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_continue
+  description: continue
+  learning_candidate: false
+  educational_value: 0.1
+return:
+  concept: return
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_return
+  description: return
+  learning_candidate: false
+  educational_value: 0.1
+yield:
+  concept: yield
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_yield
+  description: yield
+  learning_candidate: false
+  educational_value: 0.1
+yield_from:
+  concept: yield_from
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_yield_from
+  description: yield from
+  learning_candidate: false
+  educational_value: 0.1
+comprehensions:
+  concept: comprehensions
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_comprehensions
+  description: comprehensions
+  learning_candidate: true
+  educational_value: 0.7
+generator_expressions:
+  concept: generator_expressions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_generator_expression
+  description: generator expressions
+  learning_candidate: false
+  educational_value: 0.1
+conditional_expressions:
+  concept: conditional_expressions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_conditional
+  description: conditional expressions
+  learning_candidate: false
+  educational_value: 0.1
+boolean_short_circuiting:
+  concept: boolean_short_circuiting
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: boolean short-circuiting
+  learning_candidate: false
+  educational_value: 0.1
+try:
+  concept: try
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.uses_try
+  description: try
+  learning_candidate: false
+  educational_value: 0.1
+except:
+  concept: except
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.uses_except
+  description: except
+  learning_candidate: false
+  educational_value: 0.1
+except*:
+  concept: except*
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_except_star
+  description: except*
+  learning_candidate: false
+  educational_value: 0.1
+finally:
+  concept: finally
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.has_finally_cleanup
+  description: finally
+  learning_candidate: false
+  educational_value: 0.1
+try_else:
+  concept: try_else
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.has_exception_else
+  description: try/else
+  learning_candidate: false
+  educational_value: 0.1
+raise:
+  concept: raise
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.raises_from_function
+  description: raise
+  learning_candidate: false
+  educational_value: 0.1
+raise_from:
+  concept: raise_from
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.uses_exception_chaining
+  description: raise from
+  learning_candidate: false
+  educational_value: 0.1
+custom_exceptions:
+  concept: custom_exceptions
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.has_custom_exceptions
+  description: custom exceptions
+  learning_candidate: false
+  educational_value: 0.1
+exception_hierarchy:
+  concept: exception_hierarchy
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_exception_hierarchy
+  description: exception hierarchy
+  learning_candidate: false
+  educational_value: 0.1
+broad_exception_handling:
+  concept: broad_exception_handling
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.uses_broad_except
+  description: broad exception handling
+  learning_candidate: false
+  educational_value: 0.1
+exception_propagation:
+  concept: exception_propagation
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_exception_propagation
+  description: exception propagation
+  learning_candidate: false
+  educational_value: 0.1
+exception_suppression:
+  concept: exception_suppression
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: exceptions.uses_broad_except
+  description: exception suppression
+  learning_candidate: false
+  educational_value: 0.1
+with:
+  concept: with
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_with
+  description: with
+  learning_candidate: false
+  educational_value: 0.1
+async_with:
+  concept: async_with
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_async_with
+  description: async with
+  learning_candidate: false
+  educational_value: 0.1
+context_managers:
+  concept: context_managers
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_context_managers
+  description: context managers
+  learning_candidate: true
+  educational_value: 0.7
+nested_context_managers:
+  concept: nested_context_managers
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_nested_context_managers
+  description: nested context managers
+  learning_candidate: false
+  educational_value: 0.1
+resource_cleanup:
+  concept: resource_cleanup
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_resource_cleanup
+  description: resource cleanup
+  learning_candidate: false
+  educational_value: 0.1
+async_def:
+  concept: async_def
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.is_async
+  description: async def
+  learning_candidate: false
+  educational_value: 0.1
+await:
+  concept: await
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.is_async
+  description: await
+  learning_candidate: false
+  educational_value: 0.1
+async_for:
+  concept: async_for
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_async_for
+  description: async for
+  learning_candidate: false
+  educational_value: 0.1
+coroutine_calls:
+  concept: coroutine_calls
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_coroutine_calls
+  description: coroutine calls
+  learning_candidate: false
+  educational_value: 0.1
+asyncio_usage:
+  concept: asyncio_usage
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_asyncio
+  description: asyncio usage
+  learning_candidate: false
+  educational_value: 0.1
+task_creation:
+  concept: task_creation
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.calls_api:asyncio:create_task
+  description: task creation
+  learning_candidate: false
+  educational_value: 0.1
+gather:
+  concept: gather
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.calls_api:asyncio:gather
+  description: gather
+  learning_candidate: false
+  educational_value: 0.1
+async_synchronization:
+  concept: async_synchronization
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: async synchronization
+  learning_candidate: false
+  educational_value: 0.1
+variable_annotations:
+  concept: variable_annotations
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_variable_annotations
+  description: variable annotations
+  learning_candidate: false
+  educational_value: 0.1
+parameter_annotations:
+  concept: parameter_annotations
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_parameter_annotations
+  description: parameter annotations
+  learning_candidate: false
+  educational_value: 0.1
+return_annotations:
+  concept: return_annotations
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.has_return_annotations
+  description: return annotations
+  learning_candidate: false
+  educational_value: 0.1
+generic:
+  concept: generic
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:Generic
+  description: Generic
+  learning_candidate: false
+  educational_value: 0.1
+typevar:
+  concept: typevar
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:TypeVar
+  description: TypeVar
+  learning_candidate: false
+  educational_value: 0.1
+protocol:
+  concept: protocol
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:Protocol
+  description: Protocol
+  learning_candidate: false
+  educational_value: 0.1
+typeddict:
+  concept: typeddict
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:TypedDict
+  description: TypedDict
+  learning_candidate: false
+  educational_value: 0.1
+literal:
+  concept: literal
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:Literal
+  description: Literal
+  learning_candidate: false
+  educational_value: 0.1
+union:
+  concept: union
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:Union
+  description: Union
+  learning_candidate: false
+  educational_value: 0.1
+optional:
+  concept: optional
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:Optional
+  description: Optional
+  learning_candidate: false
+  educational_value: 0.1
+callable:
+  concept: callable
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:Callable
+  description: Callable
+  learning_candidate: false
+  educational_value: 0.1
+overload:
+  concept: overload
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:overload
+  description: overload
+  learning_candidate: false
+  educational_value: 0.1
+runtime_type_checks:
+  concept: runtime_type_checks
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: runtime type checks
+  learning_candidate: false
+  educational_value: 0.1
+casts:
+  concept: casts
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_symbol:typing:cast
+  description: casts
+  learning_candidate: false
+  educational_value: 0.1
+decorators:
+  concept: decorators
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_decorators
+  description: decorators
+  learning_candidate: true
+  educational_value: 0.7
+decorator_factories:
+  concept: decorator_factories
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: decorator factories
+  learning_candidate: false
+  educational_value: 0.1
+class_decorators:
+  concept: class_decorators
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: class decorators
+  learning_candidate: false
+  educational_value: 0.1
+property_decorators:
+  concept: property_decorators
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: property decorators
+  learning_candidate: false
+  educational_value: 0.1
+metaclasses:
+  concept: metaclasses
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: metaclasses
+  learning_candidate: false
+  educational_value: 0.1
+dynamic_attribute_access:
+  concept: dynamic_attribute_access
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: dynamic attribute access
+  learning_candidate: false
+  educational_value: 0.1
+'`__getattr__`':
+  concept: '`__getattr__`'
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: '`__getattr__`'
+  learning_candidate: false
+  educational_value: 0.1
+'`__getattribute__`':
+  concept: '`__getattribute__`'
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: '`__getattribute__`'
+  learning_candidate: false
+  educational_value: 0.1
+'`__init_subclass__`':
+  concept: '`__init_subclass__`'
+  category: 2._complete_python_language_coverage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: '`__init_subclass__`'
+  learning_candidate: false
+  educational_value: 0.1
+threading:
+  concept: threading
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_package:threading
+  description: threading
+  learning_candidate: false
+  educational_value: 0.1
+thread:
+  concept: thread
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.instantiates_type:threading:Thread
+  description: Thread
+  learning_candidate: false
+  educational_value: 0.1
+threadpoolexecutor:
+  concept: threadpoolexecutor
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_thread_pool
+  description: ThreadPoolExecutor
+  learning_candidate: false
+  educational_value: 0.1
+process:
+  concept: process
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.instantiates_type:multiprocessing:Process
+  description: Process
+  learning_candidate: false
+  educational_value: 0.1
+processpoolexecutor:
+  concept: processpoolexecutor
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_process_pool
+  description: ProcessPoolExecutor
+  learning_candidate: false
+  educational_value: 0.1
+executor:
+  concept: executor
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_executor
+  description: Executor
+  learning_candidate: false
+  educational_value: 0.1
+future:
+  concept: future
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_future
+  description: Future
+  learning_candidate: false
+  educational_value: 0.1
+submit:
+  concept: submit
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_submit
+  description: submit
+  learning_candidate: false
+  educational_value: 0.1
+map:
+  concept: map
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_map
+  description: map
+  learning_candidate: false
+  educational_value: 0.1
+as_completed:
+  concept: as_completed
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_as_completed
+  description: as_completed
+  learning_candidate: false
+  educational_value: 0.1
+asyncio:
+  concept: asyncio
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_package:asyncio
+  description: asyncio
+  learning_candidate: false
+  educational_value: 0.1
+queue:
+  concept: queue
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_queue
+  description: Queue
+  learning_candidate: false
+  educational_value: 0.1
+lock:
+  concept: lock
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_locks
+  description: Lock
+  learning_candidate: false
+  educational_value: 0.1
+rlock:
+  concept: rlock
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_locks
+  description: RLock
+  learning_candidate: false
+  educational_value: 0.1
+semaphore:
+  concept: semaphore
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_semaphore
+  description: Semaphore
+  learning_candidate: false
+  educational_value: 0.1
+event:
+  concept: event
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_event
+  description: Event
+  learning_candidate: false
+  educational_value: 0.1
+condition:
+  concept: condition
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_condition
+  description: Condition
+  learning_candidate: false
+  educational_value: 0.1
+barrier:
+  concept: barrier
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: concurrency.uses_barrier
+  description: Barrier
+  learning_candidate: false
+  educational_value: 0.1
+timeout_handling:
+  concept: timeout_handling
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: timeout handling
+  learning_candidate: false
+  educational_value: 0.1
+cancellation:
+  concept: cancellation
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: cancellation
+  learning_candidate: false
+  educational_value: 0.1
+producer_consumer:
+  concept: producer_consumer
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: producer-consumer
+  learning_candidate: false
+  educational_value: 0.1
+open:
+  concept: open
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_file_reads
+  description: open
+  learning_candidate: false
+  educational_value: 0.1
+pathlib:
+  concept: pathlib
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_package:pathlib
+  description: pathlib
+  learning_candidate: false
+  educational_value: 0.1
+file_reads:
+  concept: file_reads
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_file_reads
+  description: file reads
+  learning_candidate: false
+  educational_value: 0.1
+file_writes:
+  concept: file_writes
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_file_writes
+  description: file writes
+  learning_candidate: false
+  educational_value: 0.1
+temporary_files:
+  concept: temporary_files
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: temporary files
+  learning_candidate: false
+  educational_value: 0.1
+filesystem_traversal:
+  concept: filesystem_traversal
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: filesystem traversal
+  learning_candidate: false
+  educational_value: 0.1
+serialization:
+  concept: serialization
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_json
+  description: serialization
+  learning_candidate: false
+  educational_value: 0.1
+json:
+  concept: json
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_package:json
+  description: JSON
+  learning_candidate: false
+  educational_value: 0.1
+pickle:
+  concept: pickle
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: pickle
+  learning_candidate: false
+  educational_value: 0.1
+csv:
+  concept: csv
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: CSV
+  learning_candidate: false
+  educational_value: 0.1
+http_clients:
+  concept: http_clients
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: HTTP clients
+  learning_candidate: false
+  educational_value: 0.1
+sockets:
+  concept: sockets
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_sockets
+  description: sockets
+  learning_candidate: false
+  educational_value: 0.1
+retries:
+  concept: retries
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: retries
+  learning_candidate: false
+  educational_value: 0.1
+timeouts:
+  concept: timeouts
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: timeouts
+  learning_candidate: false
+  educational_value: 0.1
+connection_pooling:
+  concept: connection_pooling
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: connection pooling
+  learning_candidate: false
+  educational_value: 0.1
+logging:
+  concept: logging
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_logging
+  description: logging
+  learning_candidate: false
+  educational_value: 0.1
+loggers:
+  concept: loggers
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_logging
+  description: loggers
+  learning_candidate: false
+  educational_value: 0.1
+handlers:
+  concept: handlers
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: oop.registers_callback
+  description: handlers
+  learning_candidate: false
+  educational_value: 0.1
+formatters:
+  concept: formatters
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_logging
+  description: formatters
+  learning_candidate: false
+  educational_value: 0.1
+structured_logging:
+  concept: structured_logging
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_logging
+  description: structured logging
+  learning_candidate: false
+  educational_value: 0.1
+exception_logging:
+  concept: exception_logging
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_logging
+  description: exception logging
+  learning_candidate: false
+  educational_value: 0.1
+subprocess:
+  concept: subprocess
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_package:subprocess
+  description: subprocess
+  learning_candidate: false
+  educational_value: 0.1
+multiprocessing:
+  concept: multiprocessing
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: api.imports_package:multiprocessing
+  description: multiprocessing
+  learning_candidate: false
+  educational_value: 0.1
+environment_variables:
+  concept: environment_variables
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_env_vars
+  description: environment variables
+  learning_candidate: true
+  educational_value: 0.7
+signals:
+  concept: signals
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: signals
+  learning_candidate: false
+  educational_value: 0.1
+os_interaction:
+  concept: os_interaction
+  category: 3._python_standard-library_/_api_usage
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: core.uses_os
+  description: OS interaction
+  learning_candidate: false
+  educational_value: 0.1
+generator_usage:
+  concept: generator_usage
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.is_generator
+  description: generator usage
+  learning_candidate: true
+  educational_value: 0.7
+lambda_usage:
+  concept: lambda_usage
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.uses_lambdas
+  description: lambda usage
+  learning_candidate: true
+  educational_value: 0.7
+map_filter_reduce:
+  concept: map_filter_reduce
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: map/filter/reduce
+  learning_candidate: true
+  educational_value: 0.7
+enumerate:
+  concept: enumerate
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: UNSUPPORTED
+  description: enumerate
+  learning_candidate: true
+  educational_value: 0.7
+zip:
+  concept: zip
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: zip
+  learning_candidate: true
+  educational_value: 0.7
+unpacking:
+  concept: unpacking
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: unpacking
+  learning_candidate: true
+  educational_value: 0.7
+dataclasses:
+  concept: dataclasses
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: dataclasses
+  learning_candidate: true
+  educational_value: 0.7
+descriptors:
+  concept: descriptors
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: descriptors
+  learning_candidate: true
+  educational_value: 0.7
+iterators:
+  concept: iterators
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: patterns.is_iterator
+  description: iterators
+  learning_candidate: true
+  educational_value: 0.7
+protocols_duck_typing:
+  concept: protocols_duck_typing
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: oop.implements_protocol
+  description: protocols/duck typing
+  learning_candidate: true
+  educational_value: 0.7
+eafp:
+  concept: eafp
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: EAFP
+  learning_candidate: true
+  educational_value: 0.7
+lbyl:
+  concept: lbyl
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: LBYL
+  learning_candidate: true
+  educational_value: 0.7
+sentinel_patterns:
+  concept: sentinel_patterns
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: sentinel patterns
+  learning_candidate: true
+  educational_value: 0.7
+default_factories:
+  concept: default_factories
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: default factories
+  learning_candidate: true
+  educational_value: 0.7
+caching:
+  concept: caching
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: caching
+  learning_candidate: true
+  educational_value: 0.7
+memoization:
+  concept: memoization
+  category: 4._pythonic_idioms
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: idioms.has_generic_idiom
+  description: memoization
+  learning_candidate: true
+  educational_value: 0.7
+inheritance:
+  concept: inheritance
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.has_children
+  description: inheritance
+  learning_candidate: true
+  educational_value: 0.8
+multiple_inheritance:
+  concept: multiple_inheritance
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.has_multiple_inheritance
+  description: multiple inheritance
+  learning_candidate: true
+  educational_value: 0.8
+abstract_base_classes:
+  concept: abstract_base_classes
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.is_abstract_class
+  description: abstract base classes
+  learning_candidate: true
+  educational_value: 0.8
+interfaces_protocols:
+  concept: interfaces_protocols
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.is_protocol
+  description: interfaces/protocols
+  learning_candidate: true
+  educational_value: 0.8
+method_overriding:
+  concept: method_overriding
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.has_method_overrides
+  description: method overriding
+  learning_candidate: true
+  educational_value: 0.8
+polymorphism:
+  concept: polymorphism
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.is_polymorphic_family
+  description: polymorphism
+  learning_candidate: true
+  educational_value: 0.8
+composition:
+  concept: composition
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: composition.is_composed_of
+  description: composition
+  learning_candidate: true
+  educational_value: 0.8
+aggregation:
+  concept: aggregation
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: composition.has_aggregation
+  description: aggregation
+  learning_candidate: true
+  educational_value: 0.8
+delegation:
+  concept: delegation
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: dependency.delegates_to_collaborator
+  description: delegation
+  learning_candidate: true
+  educational_value: 0.8
+encapsulation:
+  concept: encapsulation
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: composition.has_encapsulation
+  description: encapsulation
+  learning_candidate: true
+  educational_value: 0.8
+dependency_relationships:
+  concept: dependency_relationships
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: composition.has_dependency_relationships
+  description: dependency relationships
+  learning_candidate: true
+  educational_value: 0.8
+object_lifecycle:
+  concept: object_lifecycle
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: core.has_object_lifecycle
+  description: object lifecycle
+  learning_candidate: true
+  educational_value: 0.8
+factory_methods:
+  concept: factory_methods
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: core.is_factory_method
+  description: factory methods
+  learning_candidate: true
+  educational_value: 0.8
+class_factories:
+  concept: class_factories
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: core.is_factory_method
+  description: class factories
+  learning_candidate: true
+  educational_value: 0.8
+mixins:
+  concept: mixins
+  category: 5._object-oriented_design
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: inheritance.has_mixins
+  description: mixins
+  learning_candidate: true
+  educational_value: 0.8
+srp_risk:
+  concept: srp_risk
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_srp_risk
+  description: SRP Risk
+  learning_candidate: true
+  educational_value: 0.95
+dead_code:
+  concept: dead_code
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - LOCATE
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: detectors.dead_code
+  description: Dead Code and Unused Variables
+  learning_candidate: true
+  educational_value: 0.90
+ocp_risk:
+  concept: ocp_risk
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_ocp_risk
+  description: OCP Risk
+  learning_candidate: true
+  educational_value: 0.95
+lsp_risk:
+  concept: lsp_risk
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_lsp_risk
+  description: LSP Risk
+  learning_candidate: true
+  educational_value: 0.95
+isp_risk:
+  concept: isp_risk
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_isp_risk
+  description: ISP Risk
+  learning_candidate: true
+  educational_value: 0.95
+dip_risk:
+  concept: dip_risk
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_dip_risk
+  description: DIP Risk
+  learning_candidate: true
+  educational_value: 0.95
+god_class:
+  concept: god_class
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_god_class
+  description: god class
+  learning_candidate: true
+  educational_value: 0.95
+excessive_responsibility:
+  concept: excessive_responsibility
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_srp_risk
+  description: excessive responsibility
+  learning_candidate: true
+  educational_value: 0.95
+rigid_extension_points:
+  concept: rigid_extension_points
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_speculative_generality
+  description: rigid extension points
+  learning_candidate: true
+  educational_value: 0.95
+type_switch_heavy_design:
+  concept: type_switch_heavy_design
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_ocp_risk
+  description: type-switch-heavy design
+  learning_candidate: true
+  educational_value: 0.95
+subclass_contract_violation:
+  concept: subclass_contract_violation
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_lsp_risk
+  description: subclass contract violation
+  learning_candidate: true
+  educational_value: 0.95
+fat_interface:
+  concept: fat_interface
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_isp_risk
+  description: fat interface
+  learning_candidate: true
+  educational_value: 0.95
+concrete_dependency_coupling:
+  concept: concrete_dependency_coupling
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_dip_risk
+  description: concrete dependency coupling
+  learning_candidate: true
+  educational_value: 0.95
+dependency_direction_violation:
+  concept: dependency_direction_violation
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_dip_risk
+  description: dependency direction violation
+  learning_candidate: true
+  educational_value: 0.95
+excessive_abstraction:
+  concept: excessive_abstraction
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_speculative_generality
+  description: excessive abstraction
+  learning_candidate: true
+  educational_value: 0.95
+speculative_abstraction:
+  concept: speculative_abstraction
+  category: 6._solid_&_anti-patterns_(risk_detectors)
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_speculative_generality
+  description: speculative abstraction
+  learning_candidate: true
+  educational_value: 0.95
+factory_method:
+  concept: factory_method
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_factory
+  description: Factory Method
+  learning_candidate: true
+  educational_value: 0.9
+abstract_factory:
+  concept: abstract_factory
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_abstract_factory
+  description: Abstract Factory
+  learning_candidate: true
+  educational_value: 0.9
+builder:
+  concept: builder
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_builder
+  description: Builder
+  learning_candidate: true
+  educational_value: 0.9
+prototype:
+  concept: prototype
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_prototype
+  description: Prototype
+  learning_candidate: true
+  educational_value: 0.9
+singleton:
+  concept: singleton
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_singleton
+  description: Singleton
+  learning_candidate: true
+  educational_value: 0.9
+adapter:
+  concept: adapter
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_adapter
+  description: Adapter
+  learning_candidate: true
+  educational_value: 0.9
+bridge:
+  concept: bridge
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_bridge
+  description: Bridge
+  learning_candidate: true
+  educational_value: 0.9
+composite:
+  concept: composite
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_composite
+  description: Composite
+  learning_candidate: true
+  educational_value: 0.9
+decorator:
+  concept: decorator
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_decorator
+  description: Decorator
+  learning_candidate: true
+  educational_value: 0.9
+facade:
+  concept: facade
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_facade
+  description: Facade
+  learning_candidate: true
+  educational_value: 0.9
+flyweight:
+  concept: flyweight
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_flyweight
+  description: Flyweight
+  learning_candidate: true
+  educational_value: 0.9
+proxy:
+  concept: proxy
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_proxy
+  description: Proxy
+  learning_candidate: true
+  educational_value: 0.9
+chain_of_responsibility:
+  concept: chain_of_responsibility
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_chain_of_responsibility
+  description: Chain of Responsibility
+  learning_candidate: true
+  educational_value: 0.9
+command:
+  concept: command
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_command
+  description: Command
+  learning_candidate: true
+  educational_value: 0.9
+interpreter:
+  concept: interpreter
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_interpreter
+  description: Interpreter
+  learning_candidate: true
+  educational_value: 0.9
+iterator:
+  concept: iterator
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_iterator
+  description: Iterator
+  learning_candidate: true
+  educational_value: 0.9
+mediator:
+  concept: mediator
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_mediator
+  description: Mediator
+  learning_candidate: true
+  educational_value: 0.9
+memento:
+  concept: memento
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_memento
+  description: Memento
+  learning_candidate: true
+  educational_value: 0.9
+observer:
+  concept: observer
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_observer
+  description: Observer
+  learning_candidate: true
+  educational_value: 0.9
+state:
+  concept: state
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_state
+  description: State
+  learning_candidate: true
+  educational_value: 0.9
+strategy:
+  concept: strategy
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_strategy
+  description: Strategy
+  learning_candidate: true
+  educational_value: 0.9
+template_method:
+  concept: template_method
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_template_method
+  description: Template Method
+  learning_candidate: true
+  educational_value: 0.9
+visitor:
+  concept: visitor
+  category: 7._gof_design_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_visitor
+  description: Visitor
+  learning_candidate: true
+  educational_value: 0.9
+dependency_injection:
+  concept: dependency_injection
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.uses_dependency_injection
+  description: Dependency Injection
+  learning_candidate: true
+  educational_value: 0.95
+repository:
+  concept: repository
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_facade
+  description: Repository
+  learning_candidate: true
+  educational_value: 0.95
+service_layer:
+  concept: service_layer
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_facade
+  description: Service Layer
+  learning_candidate: true
+  educational_value: 0.95
+unit_of_work:
+  concept: unit_of_work
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_facade
+  description: Unit of Work
+  learning_candidate: true
+  educational_value: 0.95
+registry:
+  concept: registry
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_singleton
+  description: Registry
+  learning_candidate: true
+  educational_value: 0.95
+plugin_architecture:
+  concept: plugin_architecture
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: oop.has_interchangeable_implementations
+  description: Plugin Architecture
+  learning_candidate: true
+  educational_value: 0.95
+middleware:
+  concept: middleware
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_chain_of_responsibility
+  description: Middleware
+  learning_candidate: true
+  educational_value: 0.95
+pipeline:
+  concept: pipeline
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_chain_of_responsibility
+  description: Pipeline
+  learning_candidate: true
+  educational_value: 0.95
+event_bus:
+  concept: event_bus
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_mediator
+  description: Event Bus
+  learning_candidate: true
+  educational_value: 0.95
+event_handler:
+  concept: event_handler
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: oop.registers_callback
+  description: Event Handler
+  learning_candidate: true
+  educational_value: 0.95
+command_handler:
+  concept: command_handler
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_command
+  description: Command Handler
+  learning_candidate: true
+  educational_value: 0.95
+adapter_layer:
+  concept: adapter_layer
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_adapter
+  description: Adapter Layer
+  learning_candidate: true
+  educational_value: 0.95
+facade_layer:
+  concept: facade_layer
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_facade
+  description: Facade Layer
+  learning_candidate: true
+  educational_value: 0.95
+factory_registry:
+  concept: factory_registry
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_factory
+  description: Factory Registry
+  learning_candidate: true
+  educational_value: 0.95
+callback_architecture:
+  concept: callback_architecture
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: oop.registers_callback
+  description: Callback Architecture
+  learning_candidate: true
+  educational_value: 0.95
+hook_architecture:
+  concept: hook_architecture
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_template_method
+  description: Hook Architecture
+  learning_candidate: true
+  educational_value: 0.95
+provider_pattern:
+  concept: provider_pattern
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_factory
+  description: Provider Pattern
+  learning_candidate: true
+  educational_value: 0.95
+gateway_pattern:
+  concept: gateway_pattern
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_facade
+  description: Gateway Pattern
+  learning_candidate: true
+  educational_value: 0.95
+mapper_pattern:
+  concept: mapper_pattern
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_adapter
+  description: Mapper Pattern
+  learning_candidate: true
+  educational_value: 0.95
+dto_pattern:
+  concept: dto_pattern
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: idioms.has_generic_idiom
+  description: DTO Pattern
+  learning_candidate: true
+  educational_value: 0.95
+specification_pattern:
+  concept: specification_pattern
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_strategy
+  description: Specification Pattern
+  learning_candidate: true
+  educational_value: 0.95
+strategy_registry:
+  concept: strategy_registry
+  category: 8._python-specific_/_architectural_patterns
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: patterns.is_strategy
+  description: Strategy Registry
+  learning_candidate: true
+  educational_value: 0.95
+layered_architecture:
+  concept: layered_architecture
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: layered architecture
+  learning_candidate: true
+  educational_value: 0.95
+dependency_cycles:
+  concept: dependency_cycles
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_unstable_dependency
+  description: dependency cycles
+  learning_candidate: true
+  educational_value: 0.95
+high_fan_in:
+  concept: high_fan_in
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: coupling.has_high_fan_in
+  description: high fan-in
+  learning_candidate: true
+  educational_value: 0.95
+high_fan_out:
+  concept: high_fan_out
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: coupling.has_high_fan_out
+  description: high fan-out
+  learning_candidate: true
+  educational_value: 0.95
+architectural_bridge:
+  concept: architectural_bridge
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_architectural_bridge
+  description: architectural bridge
+  learning_candidate: true
+  educational_value: 0.95
+central_module:
+  concept: central_module
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_central_module
+  description: central module
+  learning_candidate: true
+  educational_value: 0.95
+isolated_module:
+  concept: isolated_module
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: isolated module
+  learning_candidate: true
+  educational_value: 0.95
+tightly_coupled_subsystem:
+  concept: tightly_coupled_subsystem
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: tightly coupled subsystem
+  learning_candidate: true
+  educational_value: 0.95
+highly_cohesive_subsystem:
+  concept: highly_cohesive_subsystem
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: highly cohesive subsystem
+  learning_candidate: true
+  educational_value: 0.95
+dependency_inversion_direction:
+  concept: dependency_inversion_direction
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: dependency inversion direction
+  learning_candidate: true
+  educational_value: 0.95
+boundary_violations:
+  concept: boundary_violations
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_boundary_violation
+  description: boundary violations
+  learning_candidate: true
+  educational_value: 0.95
+circular_package_dependencies:
+  concept: circular_package_dependencies
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_unstable_dependency
+  description: circular package dependencies
+  learning_candidate: true
+  educational_value: 0.95
+unstable_dependency:
+  concept: unstable_dependency
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_unstable_dependency
+  description: unstable dependency
+  learning_candidate: true
+  educational_value: 0.95
+abstraction_boundary:
+  concept: abstraction_boundary
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_abstraction_boundary
+  description: abstraction boundary
+  learning_candidate: true
+  educational_value: 0.95
+module_clustering:
+  concept: module_clustering
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: module clustering
+  learning_candidate: true
+  educational_value: 0.95
+subsystem_detection:
+  concept: subsystem_detection
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: subsystem detection
+  learning_candidate: true
+  educational_value: 0.95
+entry_point_topology:
+  concept: entry_point_topology
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: entry-point topology
+  learning_candidate: true
+  educational_value: 0.95
+core_periphery_structure:
+  concept: core_periphery_structure
+  category: 9._architecture_/_system_structure_(networkx_graph_logic)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: core/periphery structure
+  learning_candidate: true
+  educational_value: 0.95
+oversized_class:
+  concept: oversized_class
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_god_class
+  description: oversized class
+  learning_candidate: true
+  educational_value: 0.7
+oversized_function:
+  concept: oversized_function
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_god_method
+  description: oversized function
+  learning_candidate: true
+  educational_value: 0.7
+excessive_parameters:
+  concept: excessive_parameters
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_long_method
+  description: excessive parameters
+  learning_candidate: true
+  educational_value: 0.7
+excessive_dependencies:
+  concept: excessive_dependencies
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_excessive_coupling
+  description: excessive dependencies
+  learning_candidate: true
+  educational_value: 0.7
+deep_inheritance:
+  concept: deep_inheritance
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_excessive_abstraction
+  description: deep inheritance
+  learning_candidate: true
+  educational_value: 0.7
+excessive_nesting:
+  concept: excessive_nesting
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_god_method
+  description: excessive nesting
+  learning_candidate: true
+  educational_value: 0.7
+duplicate_dependency_patterns:
+  concept: duplicate_dependency_patterns
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_circular_dependency
+  description: duplicate dependency patterns
+  learning_candidate: true
+  educational_value: 0.7
+dead_unreferenced_symbols:
+  concept: dead_unreferenced_symbols
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_possibly_unreferenced_symbol
+  description: dead/unreferenced symbols
+  learning_candidate: true
+  educational_value: 0.7
+orphan_modules:
+  concept: orphan_modules
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: metadata.has_generic_metadata
+  description: orphan modules
+  learning_candidate: true
+  educational_value: 0.7
+highly_connected_modules:
+  concept: highly_connected_modules
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: metadata.has_generic_metadata
+  description: highly connected modules
+  learning_candidate: true
+  educational_value: 0.7
+dependency_hotspots:
+  concept: dependency_hotspots
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_dependency_hotspot
+  description: dependency hotspots
+  learning_candidate: true
+  educational_value: 0.85
+unstable_modules:
+  concept: unstable_modules
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: architecture.is_unstable_module
+  description: unstable modules
+  learning_candidate: true
+  educational_value: 0.7
+complexity_hotspots:
+  concept: complexity_hotspots
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_god_method
+  description: complexity hotspots
+  learning_candidate: true
+  educational_value: 0.7
+api_hotspots:
+  concept: api_hotspots
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_shotgun_surgery
+  description: API hotspots
+  learning_candidate: true
+  educational_value: 0.7
+exception_hotspots:
+  concept: exception_hotspots
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: risks.has_lsp_risk
+  description: exception hotspots
+  learning_candidate: true
+  educational_value: 0.7
+concurrency_hotspots:
+  concept: concurrency_hotspots
+  category: 10._code_quality_/_maintainability
+  operations:
+  - DETECT
+  - EXPLAIN
+  answerability: HEURISTIC
+  resolver: idioms.has_generic_idiom
+  description: concurrency hotspots
+  learning_candidate: true
+  educational_value: 0.7
+'`_env`_usage':
+  concept: '`_env`_usage'
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_environment_variables_config
+  description: '`.env` usage'
+  learning_candidate: true
+  educational_value: 0.7
+yaml_configuration:
+  concept: yaml_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_yaml_config
+  description: YAML configuration
+  learning_candidate: true
+  educational_value: 0.7
+json_configuration:
+  concept: json_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_json_configuration
+  description: JSON configuration
+  learning_candidate: true
+  educational_value: 0.7
+toml_configuration:
+  concept: toml_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_toml_config
+  description: TOML configuration
+  learning_candidate: true
+  educational_value: 0.7
+ini_configuration:
+  concept: ini_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_ini_config
+  description: INI configuration
+  learning_candidate: true
+  educational_value: 0.7
+cli_configuration:
+  concept: cli_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_cli_configuration
+  description: CLI configuration
+  learning_candidate: true
+  educational_value: 0.7
+configuration_classes:
+  concept: configuration_classes
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: configuration classes
+  learning_candidate: true
+  educational_value: 0.7
+configuration_injection:
+  concept: configuration_injection
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: configuration injection
+  learning_candidate: true
+  educational_value: 0.7
+hard_coded_configuration:
+  concept: hard_coded_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: hard-coded configuration
+  learning_candidate: true
+  educational_value: 0.7
+feature_flags:
+  concept: feature_flags
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: feature flags
+  learning_candidate: true
+  educational_value: 0.7
+secrets_references:
+  concept: secrets_references
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: secrets references
+  learning_candidate: true
+  educational_value: 0.7
+deployment_configuration:
+  concept: deployment_configuration
+  category: 11._configuration
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_deployment_configuration
+  description: deployment configuration
+  learning_candidate: true
+  educational_value: 0.7
+docker:
+  concept: docker
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_docker
+  description: Docker
+  learning_candidate: true
+  educational_value: 0.8
+docker_compose:
+  concept: docker_compose
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_docker
+  description: Docker Compose
+  learning_candidate: true
+  educational_value: 0.8
+kubernetes:
+  concept: kubernetes
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_kubernetes
+  description: Kubernetes
+  learning_candidate: true
+  educational_value: 0.8
+helm:
+  concept: helm
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_helm
+  description: Helm
+  learning_candidate: true
+  educational_value: 0.8
+ci_cd:
+  concept: ci_cd
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_ci_cd
+  description: CI/CD
+  learning_candidate: true
+  educational_value: 0.8
+github_actions:
+  concept: github_actions
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.uses_github_actions
+  description: GitHub Actions
+  learning_candidate: true
+  educational_value: 0.8
+package_publishing:
+  concept: package_publishing
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_package_publishing
+  description: package publishing
+  learning_candidate: true
+  educational_value: 0.8
+entry_point_scripts:
+  concept: entry_point_scripts
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: entry-point scripts
+  learning_candidate: true
+  educational_value: 0.8
+service_definitions:
+  concept: service_definitions
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: service definitions
+  learning_candidate: true
+  educational_value: 0.8
+worker_processes:
+  concept: worker_processes
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: worker processes
+  learning_candidate: true
+  educational_value: 0.8
+scheduled_jobs:
+  concept: scheduled_jobs
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: scheduled jobs
+  learning_candidate: true
+  educational_value: 0.8
+health_checks:
+  concept: health_checks
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: health checks
+  learning_candidate: true
+  educational_value: 0.8
+metrics:
+  concept: metrics
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: metrics
+  learning_candidate: true
+  educational_value: 0.8
+tracing:
+  concept: tracing
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: tracing
+  learning_candidate: true
+  educational_value: 0.8
+observability:
+  concept: observability
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: observability
+  learning_candidate: true
+  educational_value: 0.8
+graceful_shutdown:
+  concept: graceful_shutdown
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: graceful shutdown
+  learning_candidate: true
+  educational_value: 0.8
+signal_handling:
+  concept: signal_handling
+  category: 12._deployment_/_operational_structure_(filesystem/config_evidence)
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: metadata.has_generic_metadata
+  description: signal handling
+  learning_candidate: true
+  educational_value: 0.8
+architectural_centrality:
+  concept: architectural_centrality
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_central_module
+  description: architectural centrality
+  learning_candidate: true
+  educational_value: 0.85
+bridge_modules:
+  concept: bridge_modules
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: patterns.is_bridge
+  description: bridge modules
+  learning_candidate: true
+  educational_value: 0.85
+strongly_connected_components:
+  concept: strongly_connected_components
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_unstable_dependency
+  description: strongly connected components
+  learning_candidate: true
+  educational_value: 0.85
+circular_dependency_clusters:
+  concept: circular_dependency_clusters
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: risks.has_circular_dependency
+  description: circular dependency clusters
+  learning_candidate: true
+  educational_value: 0.85
+core_modules:
+  concept: core_modules
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_central_module
+  description: core modules
+  learning_candidate: true
+  educational_value: 0.85
+peripheral_modules:
+  concept: peripheral_modules
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_unstable_module
+  description: peripheral modules
+  learning_candidate: true
+  educational_value: 0.85
+dense_subsystems:
+  concept: dense_subsystems
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: dense subsystems
+  learning_candidate: true
+  educational_value: 0.85
+community_boundaries:
+  concept: community_boundaries
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.has_generic_graph
+  description: community boundaries
+  learning_candidate: true
+  educational_value: 0.85
+high_betweenness_modules:
+  concept: high_betweenness_modules
+  category: 13._graph_intelligence
+  operations:
+  - LOCATE
+  - COUNT
+  answerability: DIRECT
+  resolver: architecture.is_architectural_bridge
+  description: high-betweenness modules
+  learning_candidate: true
+  educational_value: 0.85
