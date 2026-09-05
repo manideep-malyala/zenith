@@ -73,13 +73,13 @@ def _is_primitive(expr: str | None) -> bool:
 def _call_base_name(rhs: str) -> str | None:
     """
     Extract the callable name from a call expression.
-    'Repository()'        → 'Repository'
-    'repo.Repository()'   → 'Repository'  (last segment)
-    'create_repo()'       → 'create_repo'
+    'Repository()'        -> 'Repository'
+    'repo.Repository()'   -> 'Repository'  (last segment)
+    'create_repo()'       -> 'create_repo'
     Returns None if rhs doesn't look like a call.
     """
     stripped = rhs.strip()
-    if not stripped.endswith(")"):
+    if "(" not in stripped or not stripped.endswith(")"):
         return None
     base = stripped[: stripped.index("(")].strip()
     return base.split(".")[-1] if base else None

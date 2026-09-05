@@ -71,6 +71,8 @@ class GlobalSymbolRegistry:
         Returns:
             str | None: Dotted module name or None if outside project root.
         """
+        if not file_path:
+            return None
         try:
             rel = os.path.relpath(file_path, self.project_root)
         except ValueError:

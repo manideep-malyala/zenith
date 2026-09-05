@@ -91,6 +91,8 @@ class ScopeResolver:
 
     def _classify_fqn(self, fqn: str) -> ResolutionDomain:
         """Classify a fqn as LOCAL, EXTERNAL, or BUILTIN."""
+        if not fqn:
+            return ResolutionDomain.EXTERNAL
         root = fqn.split(".")[0]
         if self._registry.is_local_fqn(fqn) or self._registry.is_local_module(fqn):
             return ResolutionDomain.LOCAL

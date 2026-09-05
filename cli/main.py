@@ -47,7 +47,7 @@ def clone_repo(url: str, dest_dir: Path) -> bool:
     logger.info(f"Cloning repository: {url} ...")
     try:
         subprocess.run(
-            ["git", "clone", "--depth", "1", url, str(dest_dir)],
+            ["git", "clone", "--depth", "1", "--", url, str(dest_dir)],
             check=True,
             capture_output=True,
             text=True,
