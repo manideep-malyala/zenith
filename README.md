@@ -59,37 +59,20 @@ scan-output/
 └── top_learnings.json    # Prioritized Top 25 repository architectural learnings
 ```
 
-### Sample Top Learning (`top_learnings.json`):
-```json
-{
-  "rank": 1,
-  "capability_id": "factory_registry",
-  "name": "Factory Registry Pattern",
-  "category": "architectural_styles",
-  "score": 8.74,
-  "explanation": "Discovered extensible factory pattern on 'BaseCheckpointSaver' with 12 dynamic implementations.",
-  "source_locations": [
-    {
-      "file": "libs/checkpoint/langgraph/checkpoint/base/__init__.py",
-      "line": 177
-    }
-  ]
-}
-```
-
 ---
 
 ## Installation & Quickstart
 
 ### Prerequisites
 * Python >= 3.10
+* [uv](https://docs.astral.sh/uv/) (recommended fast package manager)
 
 ### 1. Install from Source
 ```bash
 git clone https://github.com/manideep-malyala/zenith.git
 cd zenith
-pip install -r requirements.txt
-pip install -e .
+uv sync
+uv pip install -e .
 ```
 
 ### 2. CLI Usage (`zenith`)
