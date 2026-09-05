@@ -113,5 +113,17 @@ class TestPhase4Patterns(unittest.TestCase):
         self.assertIn("f_comp", res.evidence_fact_ids)
         self.assertIn("f_call", res.evidence_fact_ids)
 
+    def test_patterns_none_oop_safe(self):
+        # Patterns predicates should safely return matched=False when oop is None
+        guarded_patterns = PatternsPredicates(None, None, None, None, None, None)
+        self.assertFalse(guarded_patterns.is_strategy("AnyClass").matched)
+        self.assertFalse(guarded_patterns.is_factory("AnyClass").matched)
+        self.assertFalse(guarded_patterns.is_observer("AnyClass").matched)
+        self.assertFalse(guarded_patterns.is_adapter("AnyClass").matched)
+        self.assertFalse(guarded_patterns.is_decorator("AnyClass").matched)
+        self.assertFalse(guarded_patterns.is_singleton("AnyClass").matched)
+        self.assertFalse(guarded_patterns.is_builder("AnyClass").matched)
+
+
 if __name__ == "__main__":
     unittest.main()

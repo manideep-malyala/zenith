@@ -64,6 +64,14 @@ class GraphQueryAPI:
         # Child --INHERITS--> Parent. Subclasses are incoming edges.
         return self._get_incoming_edges(class_fqn, EdgeType.INHERITS)
 
+    def methods_of(self, class_fqn: str) -> QueryResult:
+        """Find methods and symbols contained within the specified class/symbol."""
+        return self._get_outgoing_edges(class_fqn, EdgeType.CONTAINS)
+
+    def contains_of(self, symbol_fqn: str) -> QueryResult:
+        """Find symbols contained within the specified symbol."""
+        return self._get_outgoing_edges(symbol_fqn, EdgeType.CONTAINS)
+
     def ancestors_of(self, class_fqn: str) -> QueryResult:
         # Transitive closure of outgoing INHERITS edges
         nodes = set()

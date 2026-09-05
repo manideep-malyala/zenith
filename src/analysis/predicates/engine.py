@@ -48,11 +48,17 @@ class PredicateEngine:
         self.core = CorePredicates(registry, projections.ast_features)
         self.composition = CompositionPredicates(projections.class_dependencies, registry)
         self.coupling = CouplingPredicates(projections.module_coupling, registry)
-        self.metadata = MetadataPredicates(metadata_facts) if metadata_facts is not None else None
+        
+        meta_fact = repo_metadata
+        if meta_fact is None and metadata_facts:
+            if isinstance(metadata_facts, MetadataFact):
+                meta_fact = metadata_facts
+            elif isinstance(metadata_facts, list) and metadata_facts and isinstance(metadata_facts[0], MetadataFact):
+                meta_fact = metadata_facts[0]
+        self.metadata = MetadataPredicates(meta_fact) if meta_fact is not None else None
         self.oop = OopPredicates(self.graph_api, registry) if self.graph_api else None
         
         self.patterns = PatternsPredicates(self.core, self.idioms, self.composition, self.inheritance, self.coupling, self.oop)
         self.risks = RiskPredicates(self.core, self.idioms, self.composition, self.inheritance, self.coupling, self.graph_api, self.oop)
         self.architecture = ArchitecturePredicates(graph_metrics)
         self.api = ApiPredicates(projections.ast_features, registry)
-        self.metadata = MetadataPredicates(self.repo_metadata) if self.repo_metadata else None
