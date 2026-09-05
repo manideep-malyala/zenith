@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.10%2B-blue.svg" alt="Python 3.10+">
-  <img src="https://img.shields.io/badge/tests-143%20passed%20(100%25)-brightgreen.svg" alt="Tests">
+  <img src="https://img.shields.io/badge/tests-153%20passed%20(100%25)-brightgreen.svg" alt="Tests">
   <img src="https://img.shields.io/badge/code%20style-ruff-000000.svg" alt="Ruff">
   <img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License">
 </p>
@@ -148,10 +148,10 @@ zenith/
 
 ## Automated Testing
 
-Run the full test suite (143 unit, integration, and E2E tests):
+Run the full test suite (153 unit, integration, and E2E tests):
 
 ```bash
-python3 -m unittest discover -s tests -v
+uv run --with pytest pytest tests/
 ```
 
 ---
