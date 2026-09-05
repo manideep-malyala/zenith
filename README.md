@@ -1,7 +1,7 @@
 # ZENITH
 
 <p align="center">
-  <strong>Zero-hallucination Evidence & Network Intelligence for Token-optimal Heuristics</strong><br>
+  <strong>Zero-Hallucination Evidence & Network Intelligence for Token-Optimal Heuristics</strong><br>
   <em>Deterministic Static Analysis & Pre-LLM Semantic Graph Engine for Python</em>
 </p>
 
