@@ -152,10 +152,24 @@ class GraphQueryAPI:
         return self._get_incoming_edges(module_fqn, EdgeType.IMPORTS)
 
     def instantiations_of(self, type_fqn: str) -> QueryResult:
+        """Find symbols that instantiate this type (incoming INSTANTIATES edges)."""
         return self._get_incoming_edges(type_fqn, EdgeType.INSTANTIATES)
 
+    def instances_created_by(self, symbol_fqn: str) -> QueryResult:
+        """Find types instantiated by this symbol (outgoing INSTANTIATES edges)."""
+        return self._get_outgoing_edges(symbol_fqn, EdgeType.INSTANTIATES)
+
     def compositions_of(self, type_fqn: str) -> QueryResult:
+        """Find types composed by this symbol (outgoing COMPOSES edges)."""
         return self._get_outgoing_edges(type_fqn, EdgeType.COMPOSES)
+
+    def compositions_incoming(self, type_fqn: str) -> QueryResult:
+        """Find symbols that compose this type (incoming COMPOSES edges)."""
+        return self._get_incoming_edges(type_fqn, EdgeType.COMPOSES)
+
+    def direct_bases_of(self, class_fqn: str) -> QueryResult:
+        """Find direct base classes (outgoing INHERITS edges)."""
+        return self._get_outgoing_edges(class_fqn, EdgeType.INHERITS)
 
     def paths_between(self, source: str, target: str) -> list[QueryResult]:
         if source not in self.graph or target not in self.graph:

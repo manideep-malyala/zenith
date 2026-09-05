@@ -44,7 +44,7 @@ def clone_repo(url: str, dest_dir: Path) -> bool:
     """
     if url.startswith("github.com/"):
         url = f"https://{url}"
-    logger.info(f"📥 Cloning repository: {url} ...")
+    logger.info(f"Cloning repository: {url} ...")
     try:
         subprocess.run(
             ["git", "clone", "--depth", "1", url, str(dest_dir)],
@@ -180,7 +180,7 @@ def main(args: Sequence[str] | None = None) -> None:
                 sys.exit(1)
 
         try:
-            logger.info(f"🚀 Starting ZENITH scan on: {scan_target.resolve()}")
+            logger.info(f"Starting ZENITH scan on: {scan_target.resolve()}")
             t0 = time.time()
 
             pipeline = ScanPipeline(
@@ -194,11 +194,11 @@ def main(args: Sequence[str] | None = None) -> None:
             elapsed = time.time() - t0
 
             out_resolved = Path(output_dir).resolve()
-            logger.info(f"✨ Scan complete in {elapsed:.2f}s!")
-            logger.info(f"📁 Evidence Package written to: {out_resolved}/")
-            logger.info("   ├── metadata.json")
-            logger.info("   ├── knowledge.json")
-            logger.info("   └── top_learnings.json")
+            logger.info(f"Scan complete in {elapsed:.2f}s!")
+            logger.info(f"Evidence Package written to: {out_resolved}/")
+            logger.info("   |-- metadata.json")
+            logger.info("   |-- knowledge.json")
+            logger.info("   +-- top_learnings.json")
         finally:
             if temp_clone_dir:
                 shutil.rmtree(temp_clone_dir, ignore_errors=True)

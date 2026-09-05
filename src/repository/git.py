@@ -68,7 +68,7 @@ def get_git_metadata(repo_path: str) -> GitMetadata:
                 if len(parts) >= 2:
                     meta.owner = parts[0]
                     
-    except (subprocess.CalledProcessError, FileNotFoundError):
+    except (subprocess.SubprocessError, OSError):
         pass
         
     return meta
